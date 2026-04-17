@@ -1,11 +1,15 @@
 document.addEventListener("DOMContentLoaded" , () =>{
 
     let ul=document.getElementById("lista")
+    
 
-    function agregarTarea(){
+    function agregarTarea(){0
+
         let li=document.createElement("li")
         li.className="elemento"
+        let input=document.getElementById("tarea").value
         li.contentEditable="True"
+        li.innerText=input
         ul.appendChild(li)
     }
 
