@@ -11,3 +11,9 @@ button{
     background-color: green;
     color: white;
 }
+
+h1{
+    font-family: Arial;
+    text-align: center;
+    color: aqua;
+}
